@@ -5,6 +5,12 @@ body {
     margin: 0;
     text-align: center;
     flex-direction: column; /* Optional: If you want the content to stack vertically */
+    padding: 0 20px;
+}
+
+.content-wrapper{
+    display: flex;
+    align-items: center;
 }
 
 .circular-image {

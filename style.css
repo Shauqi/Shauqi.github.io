@@ -13,14 +13,6 @@ body {
     align-items: center;
 }
 
-.content-wrapper p{
-    padding: 10px;
-}
-
-.content-wrapper img{
-    padding: 10px;
-}
-
 .circular-image {
   border-radius: 50%;
   width: 150px;

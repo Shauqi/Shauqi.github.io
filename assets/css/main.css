@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    flex-direction: column; /* Optional: If you want the content to stack vertically */
+    padding: 0 60px;
+}
+
+.content-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.circular-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  padding: 10px;
+}

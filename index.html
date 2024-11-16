@@ -126,12 +126,24 @@
       </div>
 
         <div class="clearfix">
-            <p>I am a PhD candidate at Stony Brook University, working with Prof. Chao Chen and Prof. Joel Saltz. My research centers on probabilistic models and spatial statistics for medical imaging, with a focus on developing trustworthy AI, interpretable learning frameworks, and advanced tools for spatial agent modeling. I am currently pursuing two key research directions. The first involves leveraging contrastive Variational Autoencoders (VAEs) to create probabilistic models that can disentangle meaningful factors in the latent space, with a particular focus on applications to gigapixel pathology images. The second direction is the development of a spatial analysis toolkit, complete with a dashboard-based web interface, designed to process large-scale 2D point clouds derived from pathology images. This toolkit aims to assist pathologists and clinicians in validating hypotheses related to spatial statistics.</p>
+            <p>I am a PhD candidate at Stony Brook University, working with <a href="https://chaochen.github.io" rel="external nofollow noopener" target="_blank">Prof. Chao Chen</a> and <a href="https://bmi.stonybrookmedicine.edu/people/joel_saltz" rel="external nofollow noopener" target="_blank">Prof. Joel Saltz</a>. My research centers on probabilistic models and spatial statistics for medical imaging, with a focus on developing trustworthy AI, interpretable learning frameworks, and advanced tools for spatial agent modeling. I am currently pursuing two key research directions. The first involves leveraging contrastive Variational Autoencoders (VAEs) to create probabilistic models that can disentangle meaningful factors in the latent space, with a particular focus on applications to gigapixel pathology images. The second direction is the development of a spatial analysis toolkit, complete with a dashboard-based web interface, designed to process large-scale 2D point clouds derived from pathology images. This toolkit aims to assist pathologists and clinicians in validating hypotheses related to spatial statistics.</p>
         </div>
     </div>
 
     <!-- News -->
     <h2><a href="/news/" style="color: inherit;">news</a></h2>          
+    <div class="news">
+      <div class="table-responsive" style="max-height: 60vw">
+          <table class="table table-sm table-borderless">
+              <tr>
+                <th scope="row">August 2024</th>
+                <td>
+                  Our work on the <a href="https://arxiv.org/pdf/2410.02012" rel="external nofollow noopener" target="_blank">New Spatial Phenotypes from Imaging Uncover Survival Differences for Breast Cancer Patients</a> was accepted at ACM BCB 2024 for ORAL presentation.
+                </td>
+              </tr>
+          </table>
+      </div>
+    </div>
     <div class="news">
         <div class="table-responsive" style="max-height: 60vw">
             <table class="table table-sm table-borderless">
@@ -155,11 +167,11 @@
         <div class="col-sm-3 preview">
         <figure>
           <picture>  
-            <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/teaser_probe3d-480.webp"></source>
+            <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="./assets/images/SS_cVAE_Architecture.png"></source>
             <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/teaser_probe3d-800.webp"></source>
             <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/teaser_probe3d-1400.webp"></source>
             <!-- Fallback to the original file -->
-            <img src="/assets/img/publication_preview/teaser_probe3d.png" class="preview z-depth-1 " width="auto" height="auto" alt="teaser_probe3d.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+            <img src="./assets/images/SS_cVAE_Architecture.png" class="preview z-depth-1 " width="300px" height="200px" alt="SS_cVAE_Architecture.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
           </picture>
         </figure>
         </div>
@@ -167,27 +179,28 @@
         <!-- Entry bib key -->
         <div id="elbanani2024probe3d" class="col-sm-8">
         <!-- Title -->
-        <div class="title">Probing the 3D Awareness of Visual Foundation Models</div>
+        <div class="title">Semi-Supervised Contrastive VAE for
+          Disentanglement of Digital Pathology Images</div>
         <!-- Author -->
         <div class="author">
-        <em>Mohamed El Banani</em>, <a href="https://amitraj93.github.io" rel="external nofollow noopener" target="_blank">Amit Raj</a>, <a href="http://www.kmaninis.com" rel="external nofollow noopener" target="_blank">Kevis-Kokitsi Maninis</a>, <a href="https://abhishekkar.info" rel="external nofollow noopener" target="_blank">Abhishek Kar</a>, <a href="http://people.csail.mit.edu/yzli/" rel="external nofollow noopener" target="_blank">Yuanzhen Li</a>, <a href="http://people.csail.mit.edu/mrub/" rel="external nofollow noopener" target="_blank">Michael Rubinstein</a>, <a href="https://deqings.github.io" rel="external nofollow noopener" target="_blank">Deqing Sun</a>, <a href="https://geometry.stanford.edu/member/guibas/" rel="external nofollow noopener" target="_blank">Leonidas Guibas</a>, <a href="https://web.eecs.umich.edu/~justincj/" rel="external nofollow noopener" target="_blank">Justin Johnson</a>, and <a href="https://varunjampani.github.io" rel="external nofollow noopener" target="_blank">Varun Jampani</a>
+        <em>Mahmudul Hasan</em>, <a href="https://huxiaoling.github.io" rel="external nofollow noopener" target="_blank">Xiaoling Hu</a>, <a href="https://shahiraabousamra.github.io" rel="external nofollow noopener" target="_blank">Shahira Abousamra</a>, <a href="https://prateekprasanna.com" rel="external nofollow noopener" target="_blank">Prateek Prasanna</a>, <a href="https://bmi.stonybrookmedicine.edu/people/joel_saltz" rel="external nofollow noopener" target="_blank">Joel Saltz</a>, <a href="https://chaochen.github.io" rel="external nofollow noopener" target="_blank">Chao Chen</a>
         </div>
 
         <!-- Journal/Book title and date -->
         <div class="periodical">
-          <em>In CVPR</em>, 2024
+          <em>In MICCAI</em>, 2024
         </div>
         
         <div class="periodical"> 
-                <em><span style="color:rgb(120,128,122)"><b>TL;DR: </b>Visual foundation models can classify, delineate, and localize objects in 2D. We study how well these models represent the 3D world that images depict?</span></em> 
+                <em><span style="color:rgb(120,128,122)"><b>TL;DR: </b>Can disentangle meaningful factors from pathology images?</span></em> 
         </div>
 
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://arxiv.org/abs/2404.08636" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a href="https://arxiv.org/pdf/2410.02012" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://github.com/mbanani/probe3d" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+            <a href="https://github.com/Shauqi/SS-cVAE" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
           <div class="badges">
@@ -196,14 +209,14 @@
           </div>
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Recent advances in large-scale pretraining have yielded visual foundation models with strong capabilities. Not only can recent models generalize to arbitrary images for their training task, their intermediate representations are useful for other visual tasks such as detection and segmentation. Given that such models can classify, delineate, and localize objects in 2D, we ask whether they also represent their 3D structure? In this work, we analyze the 3D awareness of visual foundation models. We posit that 3D awareness implies that representations (1) encode the 3D structure of the scene and (2) consistently represent the surface across views. We conduct a series of experiments using task-specific probes and zero-shot inference procedures on frozen features. Our experiments reveal several limitations of the current models.</p>
+            <p>Despite the strong prediction power of deep learning models, their interpretability remains an important concern. Disentanglement models increase interpretability by decomposing the latent space into interpretable subspaces. In this paper, we propose the first disentanglement method for pathology images. We focus on the task of detecting tumor-infiltrating lymphocytes (TIL). We propose different ideas including cascading disentanglement, novel architecture, and reconstruction branches. We achieve superior performance on complex pathology images, thus improving the interpretability and even generalization power of TIL detection deep learning models.</p>
           </div>
 <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
-            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">elbanani2024probe3d</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Probing the 3D Awareness of Visual Foundation Models}}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{El Banani, Mohamed and Raj, Amit and Maninis, Kevis-Kokitsi and Kar, Abhishek and Li, Yuanzhen and Rubinstein, Michael and Sun, Deqing and Guibas, Leonidas and Johnson, Justin and Jampani, Varun}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{CVPR}</span><span class="p">,</span>
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">hasan2024semi</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Semi-supervised contrastive VAE for disentanglement of digital pathology images}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hasan, Mahmudul and Hu, Xiaoling and Abousamra, Shahira and Prasanna, Prateek and Saltz, Joel and Chen, Chao}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{International Conference on Medical Image Computing and Computer-Assisted Intervention}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
